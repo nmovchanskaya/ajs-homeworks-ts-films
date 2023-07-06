@@ -8,7 +8,7 @@ const cart = new cart_1.default();
 const movie1 = {
     id: 123,
     name: 'Мстители',
-    price: 333,
+    price: 345,
     name_eng: 'The Avengers',
     year: 2012,
     country: 'USA',
@@ -19,7 +19,7 @@ const movie1 = {
 const movie2 = {
     id: 124,
     name: 'Солярис',
-    price: 444,
+    price: 355,
     name_eng: 'Solaris',
     year: 2002,
     country: 'USA',
@@ -29,5 +29,9 @@ const movie2 = {
 };
 cart.add(movie1);
 cart.add(movie2);
+console.log(cart.getAll());
+console.log(cart.getSum());
+console.log(cart.getSumDiscounted(20));
+cart.deleteItem(124);
 console.log(cart.getAll());
 //# sourceMappingURL=app.js.map
