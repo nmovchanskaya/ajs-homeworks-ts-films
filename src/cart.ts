@@ -23,7 +23,7 @@ export default class Cart {
     return sum
   }
 
-  // discount in procents
+  // discount in percents
   getSumDiscounted (discount: number): number {
     if (discount >= 100) {
       return 0

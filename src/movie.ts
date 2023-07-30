@@ -21,7 +21,7 @@ export default class Movie implements Buyable {
     slogan: string,
     genre: string,
     duration: number,
-    qty: number = 1
+    qty = 1
   ) {
     this.id = id
     this.name = name

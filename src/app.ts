@@ -25,9 +25,10 @@ const movie2: Movie = {
   genre: 'fantastic',
   duration: 95
 }
+//test
 
-cart.add(movie1)
-cart.add(movie2)
+cart.add(movie1);
+cart.add(movie2);
 console.log(cart.getAll())
 console.log(cart.getSum())
 console.log(cart.getSumDiscounted(20))
